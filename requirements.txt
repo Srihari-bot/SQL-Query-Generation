@@ -1,4 +1,4 @@
-streamlit
-pandas
-requests
 sqlite3
+streamlit==1.37.1
+pandas==2.2.2
+requests==2.32.3
