@@ -207,10 +207,13 @@ import sqlite3
 import requests
 
 # IBM Watsonx.ai text generation API details
-api_key = "_bsaaf2TIgUm4NEeU4TCAipr_K2Pou6afOC3OsXA4_70"
+
+api_key = "zpseg_CvW4iY1piNQkKhxemS2NoRPTkP2VOAOOXkENns"
 url = "https://us-south.ml.cloud.ibm.com/ml/v1/text/generation?version=2023-05-29"
-project_id = "fdaabd6a-ff60-40c4-bf37-5549a34deac4"
-model_id = "meta-llama/llama-3-405b-instruct"
+project_id = "6de5c4d1-65ac-43c8-8476-ed6082eee2ed"
+model_id = "google/flan-ul2"
+auth_url = "https://iam.cloud.ibm.com/identity/token"
+
 
 @st.cache_data
 def get_access_token(api_key):
